@@ -74,9 +74,7 @@ public class MovementComponent : MonoBehaviour
 
         // 1) X 이동
         if (isGrounded)
-        {    
             rb.MovePosition(rb.position + Vector2.left * (moveSpeed * dt));
-        }
 
         // 2) 앞 좀비 확인
         var front = LaneService.GetMovementComponentInFrontLane(laneIndex, this);

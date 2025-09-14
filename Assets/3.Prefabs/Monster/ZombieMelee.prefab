@@ -79,9 +79,14 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   jumpImpulse: 7
+  jumpForwardFactor: 0.4
   cooldown: 0.25
   minAdvanceX: 0.05
   groundGrace: 0.08
+  ignoreFrontSec: 0.12
+  pushForce: 0.8
+  pushUpKick: 0.2
+  pushRange: 0.6
   isGrounded: 1
 --- !u!50 &1117747935120987975
 Rigidbody2D:
